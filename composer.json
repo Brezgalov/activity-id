@@ -22,6 +22,7 @@
     }
   },
   "scripts": {
-    "test": "./vendor/bin/phpunit --verbose test"
+    "test": "./vendor/bin/phpunit test",
+    "test-coverage": "./vendor/bin/phpunit test --coverage-html coverage"
   }
 }

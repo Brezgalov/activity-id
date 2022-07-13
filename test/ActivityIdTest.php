@@ -14,7 +14,7 @@ class ActivityIdTest extends \PHPUnit\Framework\TestCase
     {
         $activity = new ActivityId('test');
 
-        $this->assertEquals($activity, $activity);
+        $this->assertEquals($activity->toString(), (string)$activity);
     }
 
     public function testEmptyBuild()
